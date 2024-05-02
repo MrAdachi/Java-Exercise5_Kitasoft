@@ -6,8 +6,6 @@ import java.io.InputStreamReader;
 
 public class Exercise3_11 {
 	public static void main(String[] args) throws IOException {
-		String holiday = "";
-		
 		BufferedReader br = new BufferedReader(new InputStreamReader( System.in ) );
 		
 		System.out.print("月: ");
@@ -15,37 +13,27 @@ public class Exercise3_11 {
 		
 		switch(m) {
 			case 1:
-				holiday = "１月：元日、成人の日";
-				break;
+				System.out.println("１月：元日、成人の日");
 			case 2:
-				holiday = "２月：建国記念の日";
-				break;
+				System.out.println("２月：建国記念の日");
 			case 3:
-				holiday = "３月：春分の日";
-				break;
+				System.out.println("３月：春分の日");
 			case 4:
-				holiday = "４月：昭和の日";
-				break;
+				System.out.println("４月：昭和の日");
 			case 5:
-				holiday = "５月：憲法記念日、みどりの日、こどもの日";
-				break;
+				System.out.println("５月：憲法記念日、みどりの日、こどもの日");
+			case 6:
 			case 7:
-				holiday = "７月：海の日";
-				break;
+				System.out.println("７月：海の日");
+			case 8:
 			case 9:
-				holiday = "９月：敬老の日、秋分の日";
-				break;
+				System.out.println("９月：敬老の日、秋分の日");
 			case 10:
-				holiday = "１０月：体育の日";
-				break;
+				System.out.println("１０月：体育の日");
 			case 11:
-				holiday = "１１月：文化の日、勤労感謝の日";
-				break;
+				System.out.println("１１月：文化の日、勤労感謝の日");
 			case 12:
-				holiday = "１２月：天皇誕生日";
-				break;
+				System.out.println("１２月：天皇誕生日");
 		}
-		
-		System.out.println(holiday);
 	}
 }

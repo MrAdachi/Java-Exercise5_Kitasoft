@@ -8,7 +8,7 @@ public class Exercise3_7 {
 
 	public static void main(String[] args) throws IOException {
 		
-		String comment1, comment2, comment3;
+		String comment1 = ""; String comment2 = ""; String comment3 = "";
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader( System.in ) );
 		

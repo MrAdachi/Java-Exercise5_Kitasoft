@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Exercise3_8 {
 
 	public static void main(String[] args) throws IOException {
-		String result;
+		String result = "";
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader( System.in ) );
 		

@@ -7,9 +7,9 @@ import java.io.InputStreamReader;
 public class Exercise3_9 {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader( System.in ) );
+		String opening = "";
 		
-		String opening;
+		BufferedReader br = new BufferedReader(new InputStreamReader( System.in ) );
 		
 		System.out.println("0=日曜、1=月曜、2=火曜、3=水曜、4=木曜、5=金曜、6=土曜");
 		int d = Integer.parseInt(br.readLine());

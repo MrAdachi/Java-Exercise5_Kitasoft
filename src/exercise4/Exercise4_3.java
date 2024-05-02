@@ -15,5 +15,14 @@ public class Exercise4_3 {
 			System.out.println(ans);
 			n = ans;
 		}
+		
+		System.out.println("----------------------------");
+		
+		int m = 1;
+		
+		for(int k = 1; k <= 8; k++) {
+			m *= 2;
+			System.out.println(m);
+		}
 	}
 }

@@ -1,6 +1,6 @@
 package exercise4;
 
-public class Chapter4_3 {
+public class Exercise4_3 {
 	public static void main(String[] args) {
 		for(int i = 1; i <= 8; i++) {
 			System.out.println((int)Math.pow(2, i));

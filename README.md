@@ -1,4 +1,4 @@
-# Java-Exercise5_Kitasoft
+# Java練習問題集_1（北ソフト工房）
 
 - Exercise1  
 2024年5月2日(木) 10:30完了

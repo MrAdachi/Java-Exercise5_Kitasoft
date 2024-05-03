@@ -33,5 +33,14 @@ public class Exercise4_12 {
 		}
 		
 		System.out.println("入力値の合計が100を超えて、" + sumval2 + "になりましたので、入力を停止します。");
+		
+		System.out.println("-------------------------------------------------------------------------------");
+		
+		// 模範解答
+		int sumval3 = 0;
+		while(sumval3 <= 100) {
+			sumval3 += Integer.parseInt(br.readLine());
+		}
+		System.out.println( "合計は " + sumval3 );
 	}
 }

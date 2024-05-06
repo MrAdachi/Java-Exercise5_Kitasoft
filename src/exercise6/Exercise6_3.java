@@ -16,11 +16,14 @@ public class Exercise6_3 {
 		System.out.print("yの値は？ ");
 		int y = Integer.parseInt(br.readLine());
 		
+		System.out.print("zの値は？ ");
+		int z = Integer.parseInt(br.readLine());
+		
 		Exercise6_3 max_2 = new Exercise6_3();
 		
-		int ans1 = max_2.max_2num(x, y);
+		int ans1 = max_2.max_2num(max_2.max_2num(x, y), z);
 		
-		System.out.println("2値で大きい値は、" + ans1 + "です。");
+		System.out.println("3値で大きい値は、" + ans1 + "です。");
 		
 	}
 	

@@ -27,6 +27,8 @@ public class Exercise6_4 {
 		System.out.println();
 		
 		ins.triangle2(5);
+		
+		DrawTriangle3(3);
 	}
 	
 	public void triangle1(int... size) {
@@ -47,5 +49,16 @@ public class Exercise6_4 {
 			}
 			System.out.println();
 		}
+	}
+	
+	static void DrawTriangle3( int size )
+	{
+	    if( size > 1 )
+	        DrawTriangle3( size - 1 );
+
+	    for( int i = 0 ; i < size ; i++ )
+	        System.out.print( "$" );
+
+	    System.out.println();
 	}
 }
